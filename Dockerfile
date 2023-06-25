@@ -1,5 +1,5 @@
 # JRE base
-FROM openjdk:17-slim
+FROM eclipse-temurin:17
 
 # Environment variables
 ENV MC_VERSION="latest" \
