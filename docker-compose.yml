@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  minecraft:
+    image: ghcr.io/nperez0111/papermc-docker:main
+    container_name: minecraft
+    restart: unless-stopped
+    volumes:
+      - minecraft_save:/papermc
+    environment:
+        # Highly recommend pinning the version to avoid unexpected updates
+        MC_VERSION: ${MC_VERSION:-latest}
+        PAPER_BUILD: ${PAPER_BUILD:-latest}
+    # Allow access to the mc terminal
+    stdin_open: true
+    # To access run `docker attach papermc`
+    tty: true  
+    ports:
+     - 25565:25565
+
+volumes:
+  minecraft_save:

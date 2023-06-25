@@ -1,6 +1,8 @@
-# PaperMC Docker
+Forked from: <https://github.com/phyremaster/papermc-docker>
 
-Updated: Works With 1.18 (Java 1.17)
+Adding support for the latest java 17 & provides a docker-compose.yml file for easy setup.
+
+# PaperMC Docker
 
 This is a Linux Docker image for the PaperMC Minecraft server.
 
@@ -15,7 +17,7 @@ It is assumed that the user has already acquired a working Docker installation. 
 
 With this image, you can create a new PaperMC Minecraft server with one command (note that running said command indicates agreement to the Minecraft EULA). Here is an example:
 
-`sudo docker run -p 25565:25565 phyremaster/papermc`
+`sudo docker run -p 25565:25565 nperez0111/papermc`
 
 While this command will work just fine in many cases, it is only the bare minimum required to start a functional server and can be vastly improved by specifying some...
 
@@ -95,5 +97,5 @@ This project _does **NOT** redistribute the Minecraft server files_. Instead, th
 
 ## Project Pages
 
-- [GitHub page](https://github.com/Phyremaster/papermc-docker).
-- [Docker Hub page](https://hub.docker.com/r/phyremaster/papermc).
+- [GitHub page](https://github.com/nperez0111/papermc-docker).
+- [Docker Hub page](https://hub.docker.com/r/nperez0111/papermc).
