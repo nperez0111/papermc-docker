@@ -1,12 +1,12 @@
 Forked from: <https://github.com/phyremaster/papermc-docker>
 
-Adding support for the latest java 17 & provides a docker-compose.yml file for easy setup.
+Adding support for the latest java 17, multi-arch (amd64, arm64) & provides a docker-compose.yml file for easy setup.
 
 # PaperMC Docker
 
 This is a Linux Docker image for the PaperMC Minecraft server.
 
-PaperMC is an optimized Minecraft server with plugin support (Bukkit, Spigot, Sponge, etc.).
+[PaperMC](https://papermc.io/) is an optimized Minecraft server with plugin support (Bukkit, Spigot, Sponge, etc.).
 This image provides a basic PaperMC server. All customizations are left to the user.
 
 ## Usage
@@ -98,4 +98,4 @@ This project _does **NOT** redistribute the Minecraft server files_. Instead, th
 ## Project Pages
 
 - [GitHub page](https://github.com/nperez0111/papermc-docker).
-- [Docker Hub page](https://hub.docker.com/r/nperez0111/papermc).
+- [GitHub Package Container](https://github.com/nperez0111/papermc-docker/pkgs/container/papermc-docker).
