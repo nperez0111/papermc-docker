@@ -35,4 +35,3 @@ COPY papermc.sh /usr/local/bin/papermc.sh
 USER ${PUID:-0}:${PGID:-0}
 
 CMD ["bash", "papermc.sh"]
-# TODO not a terminal error
